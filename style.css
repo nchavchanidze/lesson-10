@@ -1,0 +1,47 @@
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input {
+    width: 200px;
+    height: 40px;
+    border: 2px solid blue;
+}
+
+form input[type="text"] {
+    border: 2px solid red;
+    font-size: 30px;
+    padding: 20px 40px;
+}
+
+form input[type="password"] {
+    background-color: yellow;
+    
+}
+
+form input[type="password"]::placeholder {
+    color: red;
+    font-size: 35px;
+}
+
+form textarea {
+    background-color: green;
+    font-size: 20px;
+}
+
+form textarea::placeholder {
+    color: white;
+    font-size: 40px;
+}
